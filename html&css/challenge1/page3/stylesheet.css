@@ -1,0 +1,68 @@
+/* CSSのリセット（消さないでください） */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+/* ここからCSSを記述してください */
+body{
+  font-family: "Avenir Next", "Hiragino Kaku Gothic ProN W3", sans-serif;
+}
+.header{
+  height: 90px;
+  background-color: #26d0c9;
+  color: #fff;
+}
+
+.header-logo{
+  float: left;
+  font-size: 36px;
+  padding: 20px 40px;
+}
+.header-list li{
+  float: left;
+  padding: 33px 20px;
+}
+
+.main{
+  padding: 100px 80px;
+}
+
+.copy-container h1{
+  font-size: 140px;
+}
+.copy-container span{
+  color: #ff4a4a;
+}
+.copy-container h2{
+  font-size: 60px;
+}
+
+.contents{
+  height: 500px;
+  margin-top: 100px;
+}
+
+.section-title{
+  font-size: 28px;
+  padding-bottom: 15px;
+  border-bottom: 2px solid #dee7ec;
+}
+.contents-item{
+  float: left;
+}
+.contents-item img{
+  margin-top: 50px;
+  margin-bottom: 30px;
+  margin-right: 40px;
+}
+.contents p{
+  font-size: 24px;
+}
